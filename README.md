@@ -66,15 +66,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Using The Command Line:
-- composer update.
+- composer update
+- php artisan migrate
 - php artisan config:cache
-- php artisan db:seed --class=UserSeeder.
+- php artisan db:seed --class=UserSeeder
 
-##  Third party js & css libraries:
-- https://jquery.com/.
-- https://getbootstrap.com/docs/4.6/getting-started/introduction/.
-- https://sweetalert2.github.io/.
-- https://ionic.io/ionicons/usage.
-- https://gasparesganga.com/labs/jquery-loading-overlay/.
+## Third party js & css libraries:
+- https://jquery.com/
+- https://getbootstrap.com/docs/4.6/getting-started/introduction/
+- https://sweetalert2.github.io/
+- https://ionic.io/ionicons/usage
+- https://gasparesganga.com/labs/jquery-loading-overlay/
 - https://datatables.net/
+
+## Base Url & credentials:
+- Back End URL - http://localhost/online-support-system/public/login
+- User Name - admin@admin.com
+- Password - password
+- Frond End  URL- http://localhost/online-support-system/public/
 
